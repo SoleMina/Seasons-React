@@ -35,6 +35,8 @@ class App extends React.Component {
 
     return <Spinner message="Please accept location access..." />;
   }
+
+  //Main
   render() {
     return <div className="border-red">{this.renderContent()}</div>;
   }
